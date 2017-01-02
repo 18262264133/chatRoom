@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.hide{
+    display: none;
+}
+.container{
+    background: url("../images/bg.jpg") repeat-y;
+    background-size:cover;
+}
+#register{
+    width:800px;
+    height:603px;
+    text-align: center;
+    margin: 100px auto;
+}
+#register h1{
+    margin-top: 15px;
+}
+#register .head_portrait img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+#register .head_portrait{
+    display:inline-block;
+    margin-top:15px;
+    width:150px;
+    height:150px;
+    cursor: pointer;
+    position: relative;
+}
+#register .remand{
+    color: #000;
+    position:absolute;
+    top:214px;
+    right:375px;
+    background-color: #ffee8c;
+    width:200px;
+    border-radius: 12px;
+    display: none;
+}
+.sex{
+    font-weight:bold;
+    margin-top:40px;
+}
+
+.boy, .girl, .secret{
+    display: inline-block;
+    width:84px;
+    height:84px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size:0;
+    border:1px solid transparent;
+}
+.boy p, .girl p, .secret p{
+    font-style: italic;
+}
+#register input{
+    width:250px;
+    height:36px;
+    border:1px solid #ccc;
+    border-radius: 25px;
+    margin-top: 50px;
+    font-size:16px;
+    outline: none;
+    padding-left:12px;
+}
+#change_head>div{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+#change_head>div>img{
+    width: 50px;
+    height: 50px;
+}
+
+#btn{
+    width:120px;
+    height:50px;
+    background: #ccc;
+    border:none;
+    font-size:18px;
+    margin-top:40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#chat{
+    margin:100px auto;
+    width:900px;
+}
+#line{
+    width:230px;
+    height:600px;
+    background-color: #2e3138;
+    float: left;
+}
+.pepNum{
+    color: #fff;
+    padding-top: 5px;
+    font-size:20px;
+    text-align: center;
+}
+#myStatus{
+    margin-top: 40px;
+    border-bottom: 2px solid #fff;
+}
+#content{
+    float:left;
+}
+#show{
+    width: 600px;
+    height:441px;
+    background-color: #eeeeee;
+    border-bottom:1px solid #dcdcdc;
+    overflow: auto;
+}
+#message{
+    width: 503px;
+    height: 157px;
+    border:none;
+}
+#send{
+    border:none;
+    width:97px;
+    height:157px;
+}
+.selfMsg{
+    float: right;
+    word-break: break-all;
+}
+.selfMsg>img{
+    width:50px;
+    border-radius: 50%;
+    margin-left:20px;
+}
+.other>img{
+    width:50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.message{
+    overflow: hidden;
+}
+.myHead{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    font-size:0;
+}
+.myHead>div>img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+.myName{
+    color:#fff;
+    display: inline-block;
+}
+.mySex{
+    width:20px;
+    display: inline-block;
+    font-size:0;
+}
+.mySex>div>img{
+    width:20px;
+    border-radius: 50%;
+}
+.otherPic{
+    width:50px;
+    height:50px;
+    display: inline-block;
+    font-size:0;
+}
+.otherPic>img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+}
+.otherName{
+    color:#fff;
+    display: inline-block;
+}
+.otherSex{
+    width:20px;
+    display: inline-block;
+    font-size:0;
+}
+.otherSex>img{
+    width:20px;
+    border-radius: 50%;
+}
+#otherStatus>div{
+    margin:20px;
+}
